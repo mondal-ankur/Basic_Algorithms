@@ -9,10 +9,8 @@ def SelectionSort(arr, start, end):
             arr[j]=arr[j]-arr[i]
 
     def sl_sort(start, end): #sort function
-        #if starting position is greater or equal to the ebd position
-        #i.e. array od size one
-        # No calculation needed
-        if start>=end-1: 
+        
+        if start>=end-1: # Base case
             return arr 
 
         # Now, obtaining the index of the min value
